@@ -53,3 +53,80 @@ footer {
   font-size: 14px;
   color: #aaa;
 }
+/* GLOBAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #0d0d0d;
+    color: white;
+    padding: 0 40px;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav li {
+    cursor: pointer;
+    font-weight: 300;
+    transition: 0.3s ease;
+}
+
+nav li:hover {
+    color: gold;
+}
+
+/* HERO SECTION */
+main {
+    max-width: 900px;
+    margin: 120px auto;
+    text-align: left;
+}
+
+main h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #dcdcdc;
+}
+
+button {
+    padding: 14px 32px;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #e6c200;
+}
